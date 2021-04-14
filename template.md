@@ -115,6 +115,8 @@
 
 > ## About this document
 
+> This template for the Data Statements Version 2 schema was prepared by Angelina McMillan-Major, Emily M. Bender, and Batya Friedman. 
+
 > A data statement is a characterization of a dataset that provides context to allow developers and users to better understand how experimental results might generalize, how software might be appropriately deployed, and what biases might be reflected in systems built on the software.
 
 > Data Statements are from the University of Washington. Contact: [datastatements@uw.edu](mailto:datastatements@uw.edu). This document template is licensed as [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
