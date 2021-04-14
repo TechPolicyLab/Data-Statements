@@ -1,13 +1,15 @@
-# Data Statement - Version 2
+># Data Statement - Version 2
 
 > **How to use this document:**
 > Fill in each section according to the instructions. The goal is to help people understand your data when they approach it. This could be someone looking at it in ten years, or it could be you yourself looking back at the data in two years.
 
-> For full details, see the How To Guide.
+> For full details, see the How To Guide(LINK).
 
 > Instruction fields are given as blockquotes; delete the instructions when you're done, and provide the file with your data, for example as "DATASTATEMENT.md". The lists in some blocks are designed to be filled in, but it's good to also leave a written description of what's happening, as well as the list.
 
 > Only blockquoted content should be deleted; the final about statement should be left intact.
+ 
+# Data Statement for [Dataset Name]
 
 ## A. HEADER
 
