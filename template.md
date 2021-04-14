@@ -5,9 +5,9 @@
 
 > For full details, see the How To Guide(LINK).
 
-> Instruction fields are given as blockquotes; delete the instructions when you're done, and provide the file with your data, for example as "DATASTATEMENT.md". The lists in some blocks are designed to be filled in, but it's good to also leave a written description of what's happening, as well as the list.
+> Instruction fields are given as blockquotes; delete the instructions when you're done, and provide the file with your data, for example as "DATASTATEMENT.md". The lists in some schema elements are designed to be filled in, but it's good to also provide a written description, as well as the list.
 
-> Only blockquoted content should be deleted; the final about statement should be left intact.
+> Only blockquoted and highlighted content should be deleted; the final about statement should be left intact.
  
 # Data Statement for [Dataset Name]
 
@@ -15,13 +15,13 @@
 
 > The header should include the following: 
 
-* Dataset title
-* Dataset curator(s) [name, affiliation]
-* Dataset version (including date)
-* Dataset citation
-* Data statement author(s) [name, affiliation]
-* Data statement version (including date)
-* Data statement citation
+* Dataset title:
+* Dataset curator(s): [name, affiliation]
+* Dataset version: [version, date]
+* Dataset citation:
+* Data statement author(s): [name, affiliation]
+* Data statement version: [version, date]
+* Data statement citation:
 
 ## B. EXECUTIVE SUMMARY
 
@@ -71,14 +71,14 @@
 
 * Time and place of linguistic activity
 * Date(s) of data collection
-* Modality (spoken, signed, written)
+* Modality `(spoken, signed, written)`
 * Scripted/edited vs. spontaneous
-* Synchronous (e.g., in-person or live online chatting) vs. asynchronous (e.g., letters, emails, forums) interaction 
+* Synchronous `(e.g., in-person or live online chatting)` vs. asynchronous `(e.g., letters, emails, forums)` interaction 
 * Speakers’ intended audience
-* Genre (e.g., newswire vs. social media)
-* Topic (e.g., entertainment vs. natural disaster)
-* Non-linguistic context (e.g., photos speakers were all looking at; a game participants are playing)
-* Additional details about the cultural context (optional)
+* Genre `(e.g., newswire vs. social media)`
+* Topic `(e.g., entertainment vs. natural disaster)`
+* Non-linguistic context `(e.g., photos speakers were all looking at; a game participants are playing)`
+* Additional details about the cultural context `(optional)`
 
 ## I. PREPROCESSING AND DATA FORMATTING
 
@@ -96,10 +96,10 @@
 
 > A collection of pointers to relevant metadata should be provided. Suggestions include:
 
-* Link to the license/copyright permissions for use or modification of the dataset
-* Link to the published or online guidelines that annotators used to annotate the data
-* Link to documentation providing metadata about the annotation process, including protections for annotator anonymity, how annotators were compensated, and which aspects of the annotation were produced automatically
-* Metrics for inter-annotator agreement and/or other numerical scores of dataset quality
+* License: `Link to the license/copyright permissions for use or modification of the dataset`
+* Annotation guidelines: `Link to the published or online guidelines that annotators used to annotate the data`
+* Annotation process: `Link to documentation providing metadata about the annotation process, including protections for annotator anonymity, how annotators were compensated, and which aspects of the annotation were produced automatically`
+* Dataset quality: `Metrics for inter-annotator agreement and/or other numerical scores of dataset quality`
 
 ## M. DISCLOSURES AND ETHICAL REVIEW
 
