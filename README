@@ -1,27 +1,27 @@
 # Guide for Writing Data Statements
 
 ## General Best Practices
-<details>
-<summary></summary>
-<br>
-<ol> 
-<li> Remember that a broad range of people may be consulting data statements including but not limited to researchers within natural language processing, researchers in other fields (e.g., linguistics, law, or digital humanities), regulators, procurers, and members of and advocates for affected communities. </li>
-<li> For datasets containing sensitive or proprietary information, whenever possible write the data statement so that it can be made publicly accessible (e.g., avoid including non-anonymized sensitive information). </li>
-<li> Consider using the data statement elements as a checklist for dataset design. </li>
-<li> Some of the data statement elements concern information that may require advanced planning to collect (e.g., demographic information). We recommend determining what information is to be collected and how at the start of the project, leaving time for ethics review board approval as appropriate. </li>
-<li> For crafting your data statement, we recommend using an interview format with an external partner (e.g., someone not involved in the project). This is both fun and instructive. In effect, the external partner treats each data statement element as a question to be posed to a project member. In engaging with someone not involved in the construction of the dataset to discuss and clarify answers, you can get a good sense of what information and how much detail is needed in the data statement. </li>
-<li> When using technical terms, make use of the Glossary schema element. </li>
-<li> When information is not known or unavailable, state this explicitly. It is valuable for readers to know, for example, that demographic information or information about specific language varieties is unavailable. Missing information is not a reason to forgo creating a data statement; clearly indicate what is missing and provide what information you can.</li>
-<li> For datasets with extensive documentation outside the data statement (e.g., annotation guides), provide short summaries with pointers to the longer documents. It should be possible to know which key questions are answered in the other document(s). </li>
-<li> Writing clear, concise data statements takes time and thought. We recommend iterating on the text of the data statement development. </li>
-<li> If the content of the dataset contains materials that could be a trigger for trauma, we recommend making a note of this in either the Curation Rationale or Other schema element.</li>
-<li> If you reference papers and resources (aside from the dataset citation provided in the Header element), include a reference list at the end of the data statement with full citations.</li>
-<li> Once drafted, review your data statement for words or phrases used to describe speakers or their language varieties that might be experienced as diminishing and make revisions as appropriate.</li>
-<li> Consider accessibility. When possible, use state of the art tools to check for accessibility, for example, for blind and low-vision readers. </li>
-<li> For datasets concerning languages other than English, also publish the data statement in the language(s) of the dataset.</li>
-<li> Provide the data statement together with the dataset. This is the canonical location for the most up to date version of the data statement. The Executive Summary along with a link to the data statement should be included in (1) any paper discussing the dataset or its uses and (2) the documentation for any system trained on the dataset. In publications presenting datasets, we recommend including the data statement as an appendix along with a pointer to where updated versions of the data statement may be found. </li>
-<li> For datasets that are not publicly available (e.g., those containing non-anonymized health information or proprietary data), whenever possible make the data statement publicly accessible. See also General Best Practice 2 above. </li></ol>
-</details>
+details
+summary /summary
+br
+ol
+li Remember that a broad range of people may be consulting data statements including but not limited to researchers within natural language processing, researchers in other fields (e.g., linguistics, law, or digital humanities), regulators, procurers, and members of and advocates for affected communities. /li
+li For datasets containing sensitive or proprietary information, whenever possible write the data statement so that it can be made publicly accessible (e.g., avoid including non-anonymized sensitive information). /li
+li Consider using the data statement elements as a checklist for dataset design. /li
+li Some of the data statement elements concern information that may require advanced planning to collect (e.g., demographic information). We recommend determining what information is to be collected and how at the start of the project, leaving time for ethics review board approval as appropriate. /li
+li For crafting your data statement, we recommend using an interview format with an external partner (e.g., someone not involved in the project). This is both fun and instructive. In effect, the external partner treats each data statement element as a question to be posed to a project member. In engaging with someone not involved in the construction of the dataset to discuss and clarify answers, you can get a good sense of what information and how much detail is needed in the data statement. /li
+li When using technical terms, make use of the Glossary schema element. /li
+li When information is not known or unavailable, state this explicitly. It is valuable for readers to know, for example, that demographic information or information about specific language varieties is unavailable. Missing information is not a reason to forgo creating a data statement; clearly indicate what is missing and provide what information you can. /li
+li For datasets with extensive documentation outside the data statement (e.g., annotation guides), provide short summaries with pointers to the longer documents. It should be possible to know which key questions are answered in the other document(s). /li
+li Writing clear, concise data statements takes time and thought. We recommend iterating on the text of the data statement development. /li
+li If the content of the dataset contains materials that could be a trigger for trauma, we recommend making a note of this in either the Curation Rationale or Other schema element. /li
+li If you reference papers and resources (aside from the dataset citation provided in the Header element), include a reference list at the end of the data statement with full citations. /li
+li Once drafted, review your data statement for words or phrases used to describe speakers or their language varieties that might be experienced as diminishing and make revisions as appropriate.  /li
+li Consider accessibility. When possible, use state of the art tools to check for accessibility, for example, for blind and low-vision readers. /li
+li For datasets concerning languages other than English, also publish the data statement in the language(s) of the dataset. /li
+li Provide the data statement together with the dataset. This is the canonical location for the most up to date version of the data statement. The Executive Summary along with a link to the data statement should be included in (1) any paper discussing the dataset or its uses and (2) the documentation for any system trained on the dataset. In publications presenting datasets, we recommend including the data statement as an appendix along with a pointer to where updated versions of the data statement may be found. /li
+li For datasets that are not publicly available (e.g., those containing non-anonymized health information or proprietary data), whenever possible make the data statement publicly accessible. See also General Best Practice 2 above. /li /ol
+/details
 
 ## A. HEADER
 
