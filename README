@@ -1,1 +1,138 @@
-Home for Data Statements and the new Version 2 schema
+# Guide for Writing Data Statements
+
+## General Best Practices
+<details>
+<summary></summary>
+<br>
+<ol> 
+<li> Remember that a broad range of people may be consulting data statements including but not limited to researchers within natural language processing, researchers in other fields (e.g., linguistics, law, or digital humanities), regulators, procurers, and members of and advocates for affected communities. </li>
+<li> For datasets containing sensitive or proprietary information, whenever possible write the data statement so that it can be made publicly accessible (e.g., avoid including non-anonymized sensitive information). </li>
+<li> Consider using the data statement elements as a checklist for dataset design. </li>
+<li> Some of the data statement elements concern information that may require advanced planning to collect (e.g., demographic information). We recommend determining what information is to be collected and how at the start of the project, leaving time for ethics review board approval as appropriate. </li>
+<li> For crafting your data statement, we recommend using an interview format with an external partner (e.g., someone not involved in the project). This is both fun and instructive. In effect, the external partner treats each data statement element as a question to be posed to a project member. In engaging with someone not involved in the construction of the dataset to discuss and clarify answers, you can get a good sense of what information and how much detail is needed in the data statement. </li>
+<li> When using technical terms, make use of the Glossary schema element. </li>
+<li> When information is not known or unavailable, state this explicitly. It is valuable for readers to know, for example, that demographic information or information about specific language varieties is unavailable. Missing information is not a reason to forgo creating a data statement; clearly indicate what is missing and provide what information you can.</li>
+<li> For datasets with extensive documentation outside the data statement (e.g., annotation guides), provide short summaries with pointers to the longer documents. It should be possible to know which key questions are answered in the other document(s). </li>
+<li> Writing clear, concise data statements takes time and thought. We recommend iterating on the text of the data statement development. </li>
+<li> If the content of the dataset contains materials that could be a trigger for trauma, we recommend making a note of this in either the Curation Rationale or Other schema element.</li>
+<li> If you reference papers and resources (aside from the dataset citation provided in the Header element), include a reference list at the end of the data statement with full citations.</li>
+<li> Once drafted, review your data statement for words or phrases used to describe speakers or their language varieties that might be experienced as diminishing and make revisions as appropriate.</li>
+<li> Consider accessibility. When possible, use state of the art tools to check for accessibility, for example, for blind and low-vision readers. </li>
+<li> For datasets concerning languages other than English, also publish the data statement in the language(s) of the dataset.</li>
+<li> Provide the data statement together with the dataset. This is the canonical location for the most up to date version of the data statement. The Executive Summary along with a link to the data statement should be included in (1) any paper discussing the dataset or its uses and (2) the documentation for any system trained on the dataset. In publications presenting datasets, we recommend including the data statement as an appendix along with a pointer to where updated versions of the data statement may be found. </li>
+<li> For datasets that are not publicly available (e.g., those containing non-anonymized health information or proprietary data), whenever possible make the data statement publicly accessible. See also General Best Practice 2 above. </li></ol>
+</details>
+
+## A. HEADER
+
+> The header should include the following: 
+
+* Dataset Title:
+* Dataset Curator(s): [name, affiliation]
+* Dataset Version: [version, date]
+* Dataset Citation and DOI:
+* Data Statement Author(s): [name, affiliation]
+* Data Statement Version: [version, date]
+* Data Statement Citation:
+* Links to versions of this data statement in other languages:
+
+## B. EXECUTIVE SUMMARY
+
+> The executive summary is a short (60–100 word) summary of the data statement that at a minimum should include: (1) a one-sentence description of the curation rationale, (2) the language(s), and (3) an overview of relevant quantitative information such as the dataset size. 
+
+## C. CURATION RATIONALE 
+
+> The curation rationale should answer questions including: Why was this dataset created? What is the task or research question the dataset is intended to address? Which texts were included and what were the goals in selecting texts, both in the original collection and in any further sub-selection? What is the internal organization of the dataset? What constitutes a data instance?
+
+## D. DOCUMENTATION FOR SOURCE DATASETS
+
+> For datasets built out of pre-existing datasets, a link to a data statement for each source dataset should be included. If a data statement is not available, provide a link to a publication or other documentation. Provide links to licenses for source datasets, where applicable.
+
+## E. LANGUAGE VARIETIES
+
+> All of the languages and language varieties represented in the dataset should be characterized with (1) a language tag from BCP-47 identifying the language variety (e.g., en-US or yue-Hant-HK), and (2) a prose description elucidating and elaborating on the BCP-47 tag (e.g., English as spoken in Palo Alto, California; Cantonese written with traditional characters by speakers in Hong Kong who are bilingual in Mandarin).
+
+## F. SPEAKER DEMOGRAPHIC
+
+> All of the speaker groups represented in the dataset should be characterized with a prose description. Demographic categories are culture-specific and locally appropriate categories and definitions should be used. Suggested specifications include: 
+
+* Age
+* Gender
+* Race/ethnicity
+* Socioeconomic status
+* First language(s)
+* Proficiency in the language(s) of the data
+* Number of different speakers represented
+* Presence of disordered speech
+ 
+## G. ANNOTATOR DEMOGRAPHIC
+
+> All of the annotator groups represented in the dataset, including those who developed the guidelines, should be characterized with a prose description. Demographic categories are context- and culture-specific; therefore, locally appropriate categories and definitions should be used. Suggested specifications include:
+
+* Age
+* Gender
+* Race/ethnicity
+* Socioeconomic status
+* First language(s)
+* Proficiency in the language(s) of the data being annotated
+* Number of different annotators represented
+* Relevant training
+
+## H. SPEECH SITUATION AND TEXT CHARACTERISTICS
+
+> A description of the speech situation in which the linguistic production occurred and/or the relevant text characteristics should be provided. This schema element may also be used to describe the cultural context of the language practices collected. Specifications include:
+
+* Time and place of linguistic activity
+* Date(s) of data collection
+* Modality `(spoken, signed, written)`
+* Scripted/edited vs. spontaneous
+* Synchronous `(e.g., in-person or live online chatting)` vs. asynchronous `(e.g., letters, emails, forums)` interaction 
+* Speakers’ intended audience
+* Genre `(e.g., newswire vs. social media)`
+* Topic `(e.g., entertainment vs. natural disaster)`
+* Non-linguistic context `(e.g., photos speakers were all looking at; a game participants are playing)`
+* Additional details about the cultural context `(optional)`
+
+## I. PREPROCESSING AND DATA FORMATTING
+
+> A description of all preprocessing and data formatting modifications made to the data (except for annotations) should be provided, including information about any anonymization procedures. The description should also specify which, if any, tools were used to make the modifications and whether the raw data is included in the dataset. 
+
+## J. CAPTURE QUALITY
+
+> A description of quality issues in data capture should be provided. This includes all types of quality issues that arise across a broad range of collection methodologies for capturing an otherwise impermanent event.
+
+## K. LIMITATIONS
+
+> For any challenges that could not be fully addressed, a description of those challenges and characterization of the resulting limitations of the dataset should be provided.
+
+## L. METADATA
+
+> A collection of pointers to relevant metadata should be provided. Suggestions include:
+
+* License: `Link to the license/copyright permissions for use or modification of the dataset`
+* Annotation guidelines: `Link to the published or online guidelines that annotators used to annotate the data`
+* Annotation process: `Link to documentation providing metadata about the annotation process, including protections for annotator anonymity, how annotators were compensated, and which aspects of the annotation were produced automatically`
+* Dataset quality: `Metrics for inter-annotator agreement and/or other numerical scores of dataset quality`
+* Errata: `Link to the list of known errors and how to report additional ones`
+
+## M. DISCLOSURES AND ETHICAL REVIEW
+
+> For projects supported by funding, a description of the funding source for the dataset and relevant information (e.g., grant number) should be specified. For projects that went through an ethical approval process, a link to the institution (e.g., IRB) and a brief description of the consent process should be provided. Any potential conflicts of interest should also be disclosed. If speakers or annotators were compensated, describe how compensation rates were determined.
+
+## N. OTHER
+
+> Any further considerations that are relevant for the dataset should be included here. 
+
+## O. GLOSSARY
+
+> A list of terms and associated definitions that may be technical or unfamiliar to nonexperts should be provided.
+
+> ## About this document
+
+> This template for the Data Statements Version 2 schema was prepared by Angelina McMillan-Major, Emily M. Bender, and Batya Friedman. 
+
+> A data statement is a characterization of a dataset that provides context to allow developers and users to better understand how experimental results might generalize, how software might be appropriately deployed, and what biases might be reflected in systems built on the software.
+
+> Data Statements are from the University of Washington. Contact: [datastatements@uw.edu](mailto:datastatements@uw.edu). This document template is licensed as [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
+
+> This version of the markdown Data Statement is from April 7th 2021. The original Data Statement template is based on worksheets distributed at the [2020 LREC workshop on Data Statements](https://sites.google.com/uw.edu/data-statements-for-nlp/), by Emily M. Bender, Batya Friedman, and Angelina McMillan-Major. Updated from the community [Version 1 Markdown template by Leon Dercyznski](https://gist.github.com/leondz/b3a53bb807a301424e3762787a04a5da).
