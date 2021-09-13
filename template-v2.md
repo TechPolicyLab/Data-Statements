@@ -15,13 +15,14 @@
 
 > The header should include the following: 
 
-* Dataset title:
-* Dataset curator(s): [name, affiliation]
-* Dataset version: [version, date]
-* Dataset citation:
-* Data statement author(s): [name, affiliation]
-* Data statement version: [version, date]
-* Data statement citation:
+* Dataset Title:
+* Dataset Curator(s): [name, affiliation]
+* Dataset Version: [version, date]
+* Dataset Citation and DOI:
+* Data Statement Author(s): [name, affiliation]
+* Data Statement Version: [version, date]
+* Data Statement Citation:
+* Links to versions of this data statement in other languages:
 
 ## B. EXECUTIVE SUMMARY
 
@@ -29,11 +30,11 @@
 
 ## C. CURATION RATIONALE 
 
-> The curation rationale should answer questions including: Why was this dataset created? What is the task or research question the dataset is intended to address? Which texts were included and what were the goals in selecting texts, both in the original collection and in any further sub-selection?
+> The curation rationale should answer questions including: Why was this dataset created? What is the task or research question the dataset is intended to address? Which texts were included and what were the goals in selecting texts, both in the original collection and in any further sub-selection? What is the internal organization of the dataset? What constitutes a data instance?
 
 ## D. DOCUMENTATION FOR SOURCE DATASETS
 
-> For datasets built out of pre-existing datasets, a link to a data statement for each source dataset should be included. If a data statement is not available, provide a link to a publication or other documentation.
+> For datasets built out of pre-existing datasets, a link to a data statement for each source dataset should be included. If a data statement is not available, provide a link to a publication or other documentation. Provide links to licenses for source datasets, where applicable.
 
 ## E. LANGUAGE VARIETIES
 
@@ -67,7 +68,7 @@
 
 ## H. SPEECH SITUATION AND TEXT CHARACTERISTICS
 
-> A description of speech situation in which the linguistic production occurred and/or the relevant text characteristics should be provided. This schema element may also be used to describe the cultural context of the language practices collected. Specifications include:
+> A description of the speech situation in which the linguistic production occurred and/or the relevant text characteristics should be provided. This schema element may also be used to describe the cultural context of the language practices collected. Specifications include:
 
 * Time and place of linguistic activity
 * Date(s) of data collection
@@ -82,7 +83,7 @@
 
 ## I. PREPROCESSING AND DATA FORMATTING
 
-> A description of all preprocessing and data formatting modifications made to the data (except for annotations) should be provided, including information about any anonymization procedures. The description should also specify which, if any, tools were used to make the modifications. 
+> A description of all preprocessing and data formatting modifications made to the data (except for annotations) should be provided, including information about any anonymization procedures. The description should also specify which, if any, tools were used to make the modifications and whether the raw data is included in the dataset. 
 
 ## J. CAPTURE QUALITY
 
@@ -100,10 +101,11 @@
 * Annotation guidelines: `Link to the published or online guidelines that annotators used to annotate the data`
 * Annotation process: `Link to documentation providing metadata about the annotation process, including protections for annotator anonymity, how annotators were compensated, and which aspects of the annotation were produced automatically`
 * Dataset quality: `Metrics for inter-annotator agreement and/or other numerical scores of dataset quality`
+* Errata: `Link to the list of known errors and how to report additional ones`
 
 ## M. DISCLOSURES AND ETHICAL REVIEW
 
-> For projects supported by funding, a description of the funding source for the dataset and relevant information (e.g., grant number) should be specified. For projects that went through an ethical approval process, a link to the institution (e.g., IRB) and a brief description of the consent process should be provided. Any potential conflicts of interest should also be disclosed.
+> For projects supported by funding, a description of the funding source for the dataset and relevant information (e.g., grant number) should be specified. For projects that went through an ethical approval process, a link to the institution (e.g., IRB) and a brief description of the consent process should be provided. Any potential conflicts of interest should also be disclosed. If speakers or annotators were compensated, describe how compensation rates were determined.
 
 ## N. OTHER
 
