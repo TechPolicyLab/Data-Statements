@@ -52,6 +52,7 @@ This guide for writing data statements provides the rationale, definitions, and 
 
 <details>
   <summary> 1. Header </summary>  
+<br>
 <details>
   <summary> Why </summary>  
   <ul>
@@ -87,6 +88,9 @@ This guide for writing data statements provides the rationale, definitions, and 
 ### 2. Executive Summary
 
 <details>
+  <summary> Click here to see the Executive Summary information </summary>  
+<br>
+<details>
   <summary> Why </summary>  
   <ul>
     <li> For dataset creators, the executive summary provides the project team with a concise description of the dataset that can serve as a guiding statement of purpose throughout the dataset development. It can also be used in documents relating to the project, such as grant proposals, dissertation prospectuses, emails to potential collaborators, and project reports. A summary drafted before the data collection will need to be updated to reflect the final version. </li>
@@ -104,6 +108,7 @@ This guide for writing data statements provides the rationale, definitions, and 
    <li> We recommend limiting the executive summary to descriptive facts about the dataset in and of itself (e.g., do not make comparisons to or assume familiarity with other datasets). Doing so will enable reuse over longer time periods (e.g., 20+ years). </li>
   </ul>
   </details>
+</details>
 
 ### 3. Curation Rationale 
 
@@ -424,7 +429,7 @@ Any potential conflicts of interest should also be disclosed. If speakers or ann
   </ul>
   </details>
 
-### N. OTHER
+### 14. Other
 
 <details>
   <summary> Why </summary>  
@@ -443,9 +448,7 @@ Any further considerations that are relevant for the dataset should be included 
   </ul>
   </details>
 
-> Any further considerations that are relevant for the dataset should be included here. 
-
-### O. GLOSSARY
+### 15. Glossary
 
 <details>
   <summary> Why </summary>  
