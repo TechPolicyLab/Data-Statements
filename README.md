@@ -50,8 +50,8 @@ This guide for writing data statements provides the rationale, definitions, and 
 
 ## Schema Elements
 
-### 1. Header
-
+<details>
+  <summary> 1. Header </summary>  
 <details>
   <summary> Why </summary>  
   <ul>
@@ -81,6 +81,7 @@ This guide for writing data statements provides the rationale, definitions, and 
      <blockquote> Gonzalez-Dios, Itziar. (2021). <i>Data Statement for the Corpus of Basque Simplified Texts</i>. Version 2. University of the Basque Country (UPV/EHU). http://www.ixa.eus/node/13302 </blockquote></li>
     <li> Consider web accessibility and the longevity of data statement location (e.g., university archives or ACM digital library). </li>
   </ul>
+</details> 
 </details> 
 
 ### 2. Executive Summary
@@ -275,168 +276,170 @@ The time, place, and cultural context allow for deeper understanding of how the 
 </details>
 <details open>
   <summary> What </summary>  
-
+A description of the speech situation in which the linguistic production occurred and/or the relevant text characteristics should be provided. 
+This schema element may also be used to describe the cultural context of the language practices collected. 
+Specifications include:
+ <ul>
+  <li> Time and place of linguistic activity </li>
+  <li> Date(s) of data collection </li>
+  <li> Modality (spoken, signed, written) </li>
+  <li> Scripted/edited vs. spontaneous </li>
+  <li> Synchronous (e.g., in-person or live online chatting) vs. asynchronous (e.g., letters, emails, forums) interaction </li>
+  <li> Speakers’ intended audience </li>
+  <li> Genre (e.g., newswire vs. social media) </li>
+  <li> Topic (e.g., entertainment vs. natural disaster) </li>
+  <li> Non-linguistic context (e.g., photos speakers were all looking at; a game participants are playing) </li>
+  <li> Additional details about the cultural context (optional) </li>
+ </ul>
 </details>
 <details>
   <summary> Best Practices </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> We recommend documenting as much of the speech situation and text characteristics information as possible before beginning the data collection. As the data is collected, update this information to reflect any changes. </li>
   </ul>
   </details>
 
-> A description of the speech situation in which the linguistic production occurred and/or the relevant text characteristics should be provided. This schema element may also be used to describe the cultural context of the language practices collected. Specifications include:
-
-* Time and place of linguistic activity
-* Date(s) of data collection
-* Modality `(spoken, signed, written)`
-* Scripted/edited vs. spontaneous
-* Synchronous `(e.g., in-person or live online chatting)` vs. asynchronous `(e.g., letters, emails, forums)` interaction 
-* Speakers’ intended audience
-* Genre `(e.g., newswire vs. social media)`
-* Topic `(e.g., entertainment vs. natural disaster)`
-* Non-linguistic context `(e.g., photos speakers were all looking at; a game participants are playing)`
-* Additional details about the cultural context `(optional)`
-
-### I. PREPROCESSING AND DATA FORMATTING
+### 9. Preprocessing and Data Formatting
 
 <details>
   <summary> Why </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> For dataset creators, documenting the preprocessing procedure can help ensure that the procedure is applied consistently, especially when data is drawn from different sources or languages. </li>
+    <li> For data statement readers, this documentation can help clarify how changes introduced during preprocessing might affect system performance (e.g., replacing personal names with placeholders for anonymization, standardization of spelling, tokenization of sentences into words).
+Providing information about preprocessing also enables reproducible dataset construction. </li>
   </ul>
 </details>
 <details open>
   <summary> What </summary>  
-
+A description of all preprocessing and data formatting modifications made to the data (except for annotations) should be provided, including information about any anonymization procedures. 
+The description should also specify which, if any, tools were used to make the modifications and whether the raw data is included in the dataset. 
 </details>
 <details>
   <summary> Best Practices </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> We recommend the description take the form of a list of ordered steps, with a link to external documentation of specific details, as appropriate. </li>
+    <li>If different preprocessing steps are applied to different parts of the dataset, document each set of steps separately (e.g., adding whitespace only to scripts which do not usually use whitespace). </li>
+    <li>If the dataset is a filtered version of a larger data collection, we recommend using this schema element to provide technical detail on the specifics of the filters and their applications (e.g., specific search terms or filtering processes). This technical description of the filtering process complements the reasons for filtering provided in the Curation Rationale schema element. </li>
+    <li>To the extent possible, provide software version information, citations, and links to repositories for the tools used in automatic processing. </li>
   </ul>
   </details>
 
-> A description of all preprocessing and data formatting modifications made to the data (except for annotations) should be provided, including information about any anonymization procedures. The description should also specify which, if any, tools were used to make the modifications and whether the raw data is included in the dataset. 
-
-### J. CAPTURE QUALITY
+### 10. Capture Quality
 
 <details>
   <summary> Why </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> For dataset creators, documenting quality issues can help inform decisions about preprocessing. </li>
+    <li> For data statement readers, accurate descriptions of the recording quality are important for at least two reasons: first, to assess if the dataset would be well-matched for a particular intended use case (e.g., a corpus of collected speech may have word level transcription, but may not include disfluencies or mistakes made in the speech); and second, to enable future third party technology developers or adopters to make similar assessments of match to quality needs at a future time. </li>
   </ul>
 </details>
 <details open>
   <summary> What </summary>  
-
+A description of quality issues in data capture should be provided. This includes all types of quality issues that arise across a broad range of collection methodologies for capturing an otherwise impermanent event.
 </details>
 <details>
   <summary> Best Practices </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> For data that include audiovisual recordings, describe the quality of the recording equipment and any aspects of the recording situation that could impact recording. </li>
+    <li> As appropriate, use this element to address other data quality concerns (e.g., image-to-text processing, granularity of transcription, or API reliability). </li>
   </ul>
   </details>
 
-> A description of quality issues in data capture should be provided. This includes all types of quality issues that arise across a broad range of collection methodologies for capturing an otherwise impermanent event.
-
-### K. LIMITATIONS
+### 11. Limitations
 
 <details>
   <summary> Why </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> For dataset creators, it can be helpful to enumerate issues that have arisen for similar tasks or datasets as well as factors that might hinder the collection of a fully representative dataset. Ideally, this should be done before collecting data, in order to identify mitigation strategies. 
+When setbacks occur in the course of creating a dataset, updating this schema element can help identify practical impacts on the resulting dataset and the extent to which the dataset in its current form meets its stated goal; such assessment can be helpful in guiding further data collection as appropriate. </li>
+    <li> For data statement readers, accurate descriptions of the challenges encountered in creating the dataset are important for at least two reasons: first, to assess if the dataset would be well-matched for a particular intended use case; and second, to enable future third party technology developers or adopters to make similar assessments of match to populations at a future time. </li>
   </ul>
 </details>
 <details open>
   <summary> What </summary>  
-
+For any challenges that could not be fully addressed, a description of those challenges and characterization of the resulting limitations of the dataset should be provided.
 </details>
 <details>
   <summary> Best Practices </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> We recommend documenting the challenges you encounter in the dataset development as they occur, including both the challenge and your strategy for addressing it. </li>
+    <li> For identifying possible limitations, we recommend using toolkits, such as Envisioning Cards and the Lifecourse Checklist, which guide practitioners to consider different populations and what representation means, as well as broader impacts. </li>
+    <li> We recommend noting any further precautions you would like future users of the dataset to be alert to. </li>
   </ul>
   </details>
 
-> For any challenges that could not be fully addressed, a description of those challenges and characterization of the resulting limitations of the dataset should be provided.
+[Envisioning Cards](https://www.envisioningcards.com/)
+[Lifecourse Checklist](https://docs.google.com/document/d/1uODpC40TQbD3VKjaorzSXY9Qc-Z9PB2qBf4SrwNiyOw/edit#)
 
-### L. METADATA
+### 12. Metadata
 
 <details>
   <summary> Why </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> For dataset creators, it is important to be aware of and collect relevant metadata.  </li>
+    <li> For data statement readers, data statements may be the "front door" through which they access the dataset.
+ As such, it is important that the data statement contains pointers to the other metadata. </li>
   </ul>
 </details>
 <details open>
   <summary> What </summary>  
-
+A collection of pointers to relevant metadata should be provided. Suggestions include:
+ <ul>
+    <li>License: Link to the license/copyright permissions for use or modification of the dataset </li>
+    <li>Annotation Guidelines: Link to the published or online guidelines that annotators used to annotate the data </li>
+    <li>Annotation Process: Link to documentation providing metadata about the annotation process, including protections for annotator anonymity, how annotators were compensated, and which aspects of the annotation were produced automatically </li>
+    <li>Dataset Quality Metrics: Metrics for inter-annotator agreement and/or other numerical scores of dataset quality </li>
+    <li>Errata: Link to the list of known errors and how to report additional ones </li>
+ </ul>
 </details>
 <details>
   <summary> Best Practices </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> Include the most durable citations or links available (e.g., DOI, published with an ISBN with full citation information). </li>
+    <li> Include a link to the licensing/copyright permissions for both the dataset itself and the data curated to create the dataset. </li>
   </ul>
   </details>
 
-> A collection of pointers to relevant metadata should be provided. Suggestions include:
-
-* License: `Link to the license/copyright permissions for use or modification of the dataset`
-* Annotation guidelines: `Link to the published or online guidelines that annotators used to annotate the data`
-* Annotation process: `Link to documentation providing metadata about the annotation process, including protections for annotator anonymity, how annotators were compensated, and which aspects of the annotation were produced automatically`
-* Dataset quality: `Metrics for inter-annotator agreement and/or other numerical scores of dataset quality`
-* Errata: `Link to the list of known errors and how to report additional ones`
-
-### M. DISCLOSURES AND ETHICAL REVIEW
+### 13. Disclosures and Ethical Review
 
 <details>
   <summary> Why </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> For dataset creators, a clear conception of the terms of the ethical approval can help inform decisions about data sources, curation, and annotation. 
+ Awareness of potential conflicts of interest can be helpful with managing or mitigating these. </li>
+    <li> For data statement readers, information about funding sources (which may have shaped curation and other decisions at the time of dataset creation) and ethical review (including the conditions of consent) may impact dataset selection. </li>
   </ul>
 </details>
 <details open>
   <summary> What </summary>  
-
+For projects supported by funding, a description of the funding source for the dataset and relevant information (e.g., grant number) should be specified. 
+For projects that went through an ethical approval process, a link to the institution (e.g., IRB) and a brief description of the consent process should be provided. 
+Any potential conflicts of interest should also be disclosed. If speakers or annotators were compensated, describe how compensation rates were determined.
 </details>
 <details>
   <summary> Best Practices </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> If your data collection process involves a consent procedure, describe this element briefly with phrases such as “written consent”, “oral consent”, or “implied consent”. </li>
+    <li> If your institution does not have or require an ethical review process, we recommend stating this. Consider using a phrase such as “An institutional ethics review process was not accessible at the time of dataset creation.” In addition, if your dataset includes any confidential information, the access restrictions protecting that information should be stated. </li>
   </ul>
   </details>
-
-> For projects supported by funding, a description of the funding source for the dataset and relevant information (e.g., grant number) should be specified. For projects that went through an ethical approval process, a link to the institution (e.g., IRB) and a brief description of the consent process should be provided. Any potential conflicts of interest should also be disclosed. If speakers or annotators were compensated, describe how compensation rates were determined.
 
 ### N. OTHER
 
 <details>
   <summary> Why </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> The data statement schema was designed to be broadly applicable to datasets containing language data, however there may be specific situations in which it would be useful to document other aspects of the dataset not covered by the schema.  </li>
   </ul>
 </details>
 <details open>
   <summary> What </summary>  
-
+Any further considerations that are relevant for the dataset should be included here. 
 </details>
 <details>
   <summary> Best Practices </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> Avoid blurring the content boundaries of the established schema elements. If you identify a piece of information that does not fit in any of the other schema elements, include it here.  </li>
   </ul>
   </details>
 
@@ -447,19 +450,18 @@ The time, place, and cultural context allow for deeper understanding of how the 
 <details>
   <summary> Why </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> For data statement authors, using technical terms can make it easier to write efficient and precise documentation. Providing definitions for these technical terms can make the data statement accessible to a wider variety of audiences. </li>
+    <li> For data statement readers, definitions of technical terms can be especially important for three purposes: (1) understanding the intended use and limitations of the dataset, (2) conducting diagnostic analyses of system breakdowns, and (3) supporting the ability of impacted individuals, communities and their representatives to seek accountability for potential harms resulting from systems employing the dataset.  </li>
   </ul>
 </details>
 <details open>
   <summary> What </summary>  
-
+A list of terms and associated definitions that may be technical or unfamiliar to non-experts should be provided.
 </details>
 <details>
   <summary> Best Practices </summary>  
   <ul>
-    <li>  </li>
-    <li>  </li>
+    <li> We recommend engaging with someone outside of the project development team in order to determine what terms to include.  </li>
   </ul>
   </details>
 
