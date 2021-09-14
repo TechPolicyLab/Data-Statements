@@ -1,5 +1,13 @@
 # Guide for Writing Data Statements
 
+Data statements provide essential information about the characteristics of datasets, including but not limited to the curation rationale and data sources. 
+The information contained in data statements can be used to help (1) mitigate the harms caused by bias in the dataset (such as a mismatch between training datasets and contexts where systems are deployed) and (2) create a more inclusive data catalog, by identifying gaps. 
+While developed with language data types, data statements could be produced for a wide range of data types with adjustments to account for the unique characteristics of the specific data type.
+
+This guide contains information about data statements for language datasets used in natural language processing systems. 
+The schema elements have been honed to the particular characteristics of language datasets, including speech context, speaker demographic, and annotator demographic. 
+This guide for writing data statements provides the rationale, definitions, and suggestions for each of the elements as well as general best practices. 
+
 ## General Best Practices
 <details>
  <summary> Click to view the General Best Practices </summary>
