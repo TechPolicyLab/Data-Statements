@@ -8,6 +8,28 @@ This guide contains information about data statements for language datasets used
 The schema elements have been honed to the particular characteristics of language datasets, including speech context, speaker demographic, and annotator demographic. 
 This guide for writing data statements provides the rationale, definitions, and suggestions for each of the elements as well as general best practices. 
 
+## Table of Contents
+
+* [General Best Practices](#general-best-practices)
+* [Key Terms](#key-terms)
+* [Schema](#schema)
+  * [1. Header]
+  * [2. Executive Summary](#2-executive-summary)
+  * [3. Curation Rationale](#3-curation-rationale)
+  * [4. Documentation for Source Datasets](#4-documentation-for-source-datasets)
+  * [5. Language Varieties](#5-language-varieties)
+  * [6. Speaker Demographic](#6-speaker-demographic)
+  * [7. Annotator Demographic](#7-annotator-demographic)
+  * [8. Speech Situation and Text Characteristics](#8-speech-situation-and-text-characteristics)
+  * [9. Preprocessing and Data Formatting](#9-preprocessing-and-data-formatting)
+  * [10. Capture Quality](#10-capture-quality)
+  * [11. Limitations](#11-limitations)
+  * [12. Metadata](#12-metadata)
+  * [13. Disclosures and Ethical Review](#13-disclosures-and-ethical-review)
+  * [14. Other](#14-other)
+  * [15. Glossary](#15-glossary)
+* [References](#references)
+
 ## General Best Practices
 
 <details>
@@ -48,7 +70,7 @@ This guide for writing data statements provides the rationale, definitions, and 
 <li> <i>Text</i> refers to a sequence of language data. </li></ul>
  </details>
 
-## Schema Elements
+## Schema
 
 <details>
   <summary> 1. Header </summary>  
