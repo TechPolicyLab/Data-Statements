@@ -28,7 +28,7 @@ This guide for writing data statements provides the rationale, definitions, and 
   * [13. Disclosures and Ethical Review](#13-disclosures-and-ethical-review)
   * [14. Other](#14-other)
   * [15. Glossary](#15-glossary)
-* [References](#references)
+* [Bibliography](#bibliography)
 
 ## General Best Practices
 
@@ -501,10 +501,10 @@ A list of terms and associated definitions that may be technical or unfamiliar t
   </ul>
   </details>
 
-## References
+## Bibliography
 
 <details>
-  <summary> Click to view References </summary>  
+  <summary> Click to view the Bibliography </summary>  
   <ul>
     <li> M. Arnold, R. K. E. Bellamy, M. Hind, S. Houde, S. Mehta, A. Mojsilović, R. Nair, K. Natesan Ramamurthy, A. Olteanu, D. Piorkowski, D. Reimer, J. Richards, J. Tsay, and K. R. Varshney. 2019. FactSheets: Increasing trust in AI services through supplier’s declarations of conformity. <i>IBM Journal of Research and Development</i> 63, 4/5 (2019), 6:1–6:13. https://doi.org/10.1147/JRD.2019.2942288 </li>
     <li> Emily M. Bender and Batya Friedman. 2018. Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science. <i> Transactions of the Association for Computational Linguistics</i> 6 (2018), 587–604. https://doi.org/10.1162/tacl_a_00041 </li>
