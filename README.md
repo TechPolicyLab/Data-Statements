@@ -40,16 +40,16 @@ This guide for writing data statements provides the rationale, definitions, and 
 <li> Consider using the data statement elements as a checklist for dataset design. </li>
 <li> Some of the data statement elements concern information that may require advanced planning to collect (e.g., demographic information). We recommend determining what information is to be collected and how at the start of the project, leaving time for ethics review board approval as appropriate. </li>
 <li> For crafting your data statement, we recommend using an interview format with an external partner (e.g., someone not involved in the project). This is both fun and instructive. In effect, the external partner treats each data statement element as a question to be posed to a project member. In engaging with someone not involved in the construction of the dataset to discuss and clarify answers, you can get a good sense of what information and how much detail is needed in the data statement. </li>
-<li> When using technical terms, make use of the Glossary schema element. </li>
+<li> When using technical terms, make use of 15 Glossary. </li>
 <li> When information is not known or unavailable, state this explicitly. It is valuable for readers to know, for example, that demographic information or information about specific language varieties is unavailable. Missing information is not a reason to forgo creating a data statement; clearly indicate what is missing and provide what information you can. </li>
 <li> For datasets with extensive documentation outside the data statement (e.g., annotation guides), provide short summaries with pointers to the longer documents. It should be possible to know which key questions are answered in the other document(s). </li>
 <li> Writing clear, concise data statements takes time and thought. We recommend iterating on the text of the data statement development. </li>
-<li> If the content of the dataset contains materials that could be a trigger for trauma, we recommend making a note of this in either the Curation Rationale or Other schema element. </li>
-<li> If you reference papers and resources (aside from the dataset citation provided in the Header element), include a reference list at the end of the data statement with full citations. </li>
+<li> If the content of the dataset contains materials that could be a trigger for trauma, we recommend making a note of this in either 3 Curation Rationale or 14 Other. </li>
+<li> If you reference papers and resources (aside from the dataset citation provided in 1 Header), include a reference list at the end of the data statement with full citations. </li>
 <li> Once drafted, review your data statement for words or phrases used to describe speakers or their language varieties that might be experienced as diminishing and make revisions as appropriate. </li>
 <li> Consider accessibility. When possible, use state of the art tools to check for accessibility, for example, for blind and low-vision readers. </li>
 <li> For datasets concerning languages other than English, also publish the data statement in the language(s) of the dataset. </li>
-<li> Provide the data statement together with the dataset. This is the canonical location for the most up to date version of the data statement. The Executive Summary along with a link to the data statement should be included in (1) any paper discussing the dataset or its uses and (2) the documentation for any system trained on the dataset. In publications presenting datasets, we recommend including the data statement as an appendix along with a pointer to where updated versions of the data statement may be found. </li>
+<li> Provide the data statement together with the dataset. This is the canonical location for the most up to date version of the data statement. 2 Executive Summary along with a link to the data statement should be included in (1) any paper discussing the dataset or its uses and (2) the documentation for any system trained on the dataset. In publications presenting datasets, we recommend including the data statement as an appendix along with a pointer to where updated versions of the data statement may be found. </li>
 <li> For datasets that are not publicly available (e.g., those containing non-anonymized health information or proprietary data), whenever possible make the data statement publicly accessible. See also General Best Practice 2 above. </li></ol>
  </details>
 
@@ -160,7 +160,7 @@ This guide for writing data statements provides the rationale, definitions, and 
   <summary> Best Practices </summary>  
   <ul>
     <li> If the dataset includes different categories of data (e.g., radio news and talk shows), include additional qualitative information describing the rationale for including different categories and their distribution within the larger dataset. Further data statement elements below should speak to each subcategory. </li>
-    <li> If the dataset involves subselection from a larger collection, specify topics, keywords, or other filters used and the reasons for choosing each. Technical details can be provided in the Preprocessing and Data Formatting schema element. </li>
+    <li> If the dataset involves subselection from a larger collection, specify topics, keywords, or other filters used and the reasons for choosing each. Technical details can be provided in 9 Preprocessing and Data Formatting. </li>
     <li> We recommend writing the curation rationale after the other elements have been drafted. This will help to clarify what level of detail is appropriate for the curation rationale as well as which details are best included in other elements, thereby reducing repetition. </li>
   </ul>
   </details>
@@ -170,7 +170,7 @@ This guide for writing data statements provides the rationale, definitions, and 
 <details>
   <summary> Why </summary>  
   <ul>
-    <li> For dataset creators, the source dataset documentation can provide  examples and language to draw from or reference when drafting the current data statement. </li>
+    <li> For dataset creators, the source dataset documentation can provide examples and language to draw from or reference when drafting the current data statement. </li>
     <li> For data statement readers, the source dataset documentation can help with understanding how the current dataset builds upon and differs from the original task and data collection. Links to the source dataset show the user where to go look for further information, especially for the curation rationale of the source dataset. </li>
   </ul>
 </details>
@@ -213,7 +213,7 @@ Link to [BCP-47](https://tools.ietf.org/rfc/bcp/bcp47.txt)
 
 ### 6 Speaker Demographic
 
-Beyond the language variety tied to a community of speakers (see Schema Element 5), individual speakers bring their own identities to their speech patterns. 
+Beyond the language variety tied to a community of speakers (see 5 Language Varieties), individual speakers bring their own identities to their speech patterns. 
 Specifically, sociolinguistics has found that variation (in pronunciation, prosody, word choice, and grammar) correlates with speaker demographic characteristics (Labov, 1966), as speakers use linguistic variation to construct and project identities (Eckert and Rickford, 2001). 
 In addition, when individuals speak a second language, properties of their first language affect their speech production in their second language (Ellis, 1994, Ch. 8). 
 A further source of variation can be found in physiological sources such as disordered speech (e.g., dysarthria) (Christensen et al 2012, Nicolao et al. 2016).
@@ -228,7 +228,7 @@ A further source of variation can be found in physiological sources such as diso
 <details open>
   <summary> What </summary>  
 All of the speaker groups represented in the dataset should be characterized with a prose description. 
-Demographic categories are culture-specific and locally appropriate categories and definitions should be used. 
+Demographic categories are context- and culture-specific; therefore, locally appropriate categories and definitions should be used. 
 Suggested specifications include:
   <ul>
    <li> Age </li>
@@ -357,7 +357,7 @@ The description should also specify which, if any, tools were used to make the m
   <ul>
     <li> We recommend the description take the form of a list of ordered steps, with a link to external documentation of specific details, as appropriate. </li>
     <li>If different preprocessing steps are applied to different parts of the dataset, document each set of steps separately (e.g., adding whitespace only to scripts which do not usually use whitespace). </li>
-    <li>If the dataset is a filtered version of a larger data collection, we recommend using this schema element to provide technical detail on the specifics of the filters and their applications (e.g., specific search terms or filtering processes). This technical description of the filtering process complements the reasons for filtering provided in the Curation Rationale schema element. </li>
+    <li>If the dataset is a filtered version of a larger data collection, we recommend using this schema element to provide technical detail on the specifics of the filters and their applications (e.g., specific search terms or filtering processes). This technical description of the filtering process complements the reasons for filtering provided in 3 Curation Rationale. </li>
     <li>To the extent possible, provide software version information, citations, and links to repositories for the tools used in automatic processing. </li>
   </ul>
   </details>
