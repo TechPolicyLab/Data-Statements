@@ -13,21 +13,21 @@ This guide for writing data statements provides the rationale, definitions, and 
 * [General Best Practices](#general-best-practices)
 * [Key Terms](#key-terms)
 * [Schema](#schema)
-  * [1. Header]
-  * [2. Executive Summary](#2-executive-summary)
-  * [3. Curation Rationale](#3-curation-rationale)
-  * [4. Documentation for Source Datasets](#4-documentation-for-source-datasets)
-  * [5. Language Varieties](#5-language-varieties)
-  * [6. Speaker Demographic](#6-speaker-demographic)
-  * [7. Annotator Demographic](#7-annotator-demographic)
-  * [8. Speech Situation and Text Characteristics](#8-speech-situation-and-text-characteristics)
-  * [9. Preprocessing and Data Formatting](#9-preprocessing-and-data-formatting)
-  * [10. Capture Quality](#10-capture-quality)
-  * [11. Limitations](#11-limitations)
-  * [12. Metadata](#12-metadata)
-  * [13. Disclosures and Ethical Review](#13-disclosures-and-ethical-review)
-  * [14. Other](#14-other)
-  * [15. Glossary](#15-glossary)
+  * 1 Header
+  * [2 Executive Summary](#2-executive-summary)
+  * [3 Curation Rationale](#3-curation-rationale)
+  * [4 Documentation for Source Datasets](#4-documentation-for-source-datasets)
+  * [5 Language Varieties](#5-language-varieties)
+  * [6 Speaker Demographic](#6-speaker-demographic)
+  * [7 Annotator Demographic](#7-annotator-demographic)
+  * [8 Speech Situation and Text Characteristics](#8-speech-situation-and-text-characteristics)
+  * [9 Preprocessing and Data Formatting](#9-preprocessing-and-data-formatting)
+  * [10 Capture Quality](#10-capture-quality)
+  * [11 Limitations](#11-limitations)
+  * [12 Metadata](#12-metadata)
+  * [13 Disclosures and Ethical Review](#13-disclosures-and-ethical-review)
+  * [14 Other](#14-other)
+  * [15 Glossary](#15-glossary)
 * [Bibliography](#bibliography)
 
 ## General Best Practices
@@ -84,7 +84,7 @@ This guide for writing data statements provides the rationale, definitions, and 
 ## Schema
 
 <details>
-  <summary> 1. Header </summary>  
+  <summary> 1 Header </summary>  
 <br>
 <details>
   <summary> Why </summary>  
@@ -118,7 +118,7 @@ This guide for writing data statements provides the rationale, definitions, and 
 </details> 
 </details> 
 
-### 2. Executive Summary
+### 2 Executive Summary
 
 <details>
   <summary> Click here to see the Executive Summary information </summary>  
@@ -143,7 +143,7 @@ This guide for writing data statements provides the rationale, definitions, and 
   </details>
 </details>
 
-### 3. Curation Rationale 
+### 3 Curation Rationale 
 
 <details>
   <summary> Why </summary>  
@@ -165,7 +165,7 @@ This guide for writing data statements provides the rationale, definitions, and 
   </ul>
   </details>
 
-### 4. Documentation for Source Datasets
+### 4 Documentation for Source Datasets
 
 <details>
   <summary> Why </summary>  
@@ -186,7 +186,7 @@ This guide for writing data statements provides the rationale, definitions, and 
   </ul>
   </details>
   
-### 5. Language Varieties
+### 5 Language Varieties
 
 Natural language processing algorithms embed assumptions about language structure; when applying an algorithm to a dataset from a language variety that differs structurally from that embedded in the algorithm unexpected behaviors may occur. 
 Link to [BCP-47](https://tools.ietf.org/rfc/bcp/bcp47.txt)
@@ -211,7 +211,7 @@ Link to [BCP-47](https://tools.ietf.org/rfc/bcp/bcp47.txt)
   </ul>
   </details>
 
-### 6. Speaker Demographic
+### 6 Speaker Demographic
 
 Beyond the language variety tied to a community of speakers (see Schema Element 5), individual speakers bring their own identities to their speech patterns. 
 Specifically, sociolinguistics has found that variation (in pronunciation, prosody, word choice, and grammar) correlates with speaker demographic characteristics (Labov, 1966), as speakers use linguistic variation to construct and project identities (Eckert and Rickford, 2001). 
@@ -256,7 +256,7 @@ Suggested specifications include:
   </ul>
   </details>
  
-### 7. Annotator Demographic
+### 7 Annotator Demographic
 
 Linguistic variation is correlated with the language user’s demographics, including that of the annotators. 
 Specifically, the annotators’ own life experience influences their knowledge of language and how language is used by others and, thus, their perception of what they are annotating (Derczynski et al 2016, Talat 2016). 
@@ -300,7 +300,7 @@ Suggested specifications include:
   </ul>
   </details>
 
-### 8. Speech Situation and Text Characteristics
+### 8 Speech Situation and Text Characteristics
 
 Characteristics of the speech situation can affect linguistic structure and patterns at many levels. For example, the intended audience of a linguistic performance can affect linguistic choices on the part of speakers. 
 The time, place, and cultural context allow for deeper understanding of how the texts collected relate to their historical moment. Both genre and topic also influence the vocabulary and structural characteristics of texts (Biber, 1995). 
@@ -337,7 +337,7 @@ Specifications include:
   </ul>
   </details>
 
-### 9. Preprocessing and Data Formatting
+### 9 Preprocessing and Data Formatting
 
 <details>
   <summary> Why </summary>  
@@ -362,7 +362,7 @@ The description should also specify which, if any, tools were used to make the m
   </ul>
   </details>
 
-### 10. Capture Quality
+### 10 Capture Quality
 
 <details>
   <summary> Why </summary>  
@@ -383,7 +383,7 @@ A description of quality issues in data capture should be provided. This include
   </ul>
   </details>
 
-### 11. Limitations
+### 11 Limitations
 
 <details>
   <summary> Why </summary>  
@@ -409,7 +409,7 @@ For any challenges that could not be fully addressed, a description of those cha
 [Envisioning Cards](https://www.envisioningcards.com/)
 [Lifecourse Checklist](https://docs.google.com/document/d/1uODpC40TQbD3VKjaorzSXY9Qc-Z9PB2qBf4SrwNiyOw/edit#)
 
-### 12. Metadata
+### 12 Metadata
 
 <details>
   <summary> Why </summary>  
@@ -438,7 +438,7 @@ A collection of pointers to relevant metadata should be provided. Suggestions in
   </ul>
   </details>
 
-### 13. Disclosures and Ethical Review
+### 13 Disclosures and Ethical Review
 
 <details>
   <summary> Why </summary>  
@@ -462,7 +462,7 @@ Any potential conflicts of interest should also be disclosed. If speakers or ann
   </ul>
   </details>
 
-### 14. Other
+### 14 Other
 
 <details>
   <summary> Why </summary>  
@@ -481,7 +481,7 @@ Any further considerations that are relevant for the dataset should be included 
   </ul>
   </details>
 
-### 15. Glossary
+### 15 Glossary
 
 <details>
   <summary> Why </summary>  
