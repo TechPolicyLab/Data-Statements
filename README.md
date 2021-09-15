@@ -57,18 +57,29 @@ This guide for writing data statements provides the rationale, definitions, and 
 
 <details>
  <summary> Click to view the Key Terms </summary>
-<ul>
- <li> <i>Annotator</i> refers to someone who assigns annotations to the raw language data, including transcribers of spoken or signed data. </li>
-<li> <i>Disordered speech</i> refers to speech that has been affected by physiological conditions that affect a person’s ability to produce speech sounds. </li>
-<li> <i>Elicited data</i> refers to text that speakers were prompted to produce specifically for the purposes of constructing the dataset. </li>
-<li> <i>Found data</i> refers to text that was produced by speakers for their own communicative purposes and collected after the fact for a dataset. </li>
-<li> <i>Language data</i> refers to spoken, written or signed utterances. </li>
-<li> <i>Language variety</i> refers to a manifestation of a given language (e.g., dialect); it does so without privileging one manifestation of the language as primary over others. </li>
-<li> <i>Speaker</i> refers to someone who is competent in at least one modality for a language, meaning they are able to speak, sign and/or write in the language as well as perceive and understand speech, sign or text in it. </li>
-<li> <i>Speech</i> refers to linguistic activity, i.e. the production of language (spoken, written or signed). </li>
-<li> <i>Synthetic text</i> refers to text produced by an algorithm rather than a person. </li>
-<li> <i>Text</i> refers to a sequence of language data. </li></ul>
- </details>
+<dl>
+ <dt>Annotator</dt> 
+ <dd>Refers to someone who assigns annotations to the raw language data, including transcribers of spoken or signed data. </dd>
+ <dt>Disordered speech</dt> 
+ <dd>Refers to speech that has been affected by physiological conditions that affect a person’s ability to produce speech sounds. </dd>
+ <dt>Elicited data</dt> 
+ <dd>Refers to text that speakers were prompted to produce specifically for the purposes of constructing the dataset. </dd>
+ <dt>Found data</dt> 
+ <dd>Refers to text that was produced by speakers for their own communicative purposes and collected after the fact for a dataset. </dd>
+ <dt>Language data</dt> 
+ <dd>Refers to spoken, written or signed utterances. </dd>
+ <dt>Language variety</dt> 
+ <dd>Refers to a manifestation of a given language (e.g., dialect); it does so without privileging one manifestation of the language as primary over others. </dd>
+ <dt>Speaker</dt> 
+ <dd>Refers to someone who is competent in at least one modality for a language, meaning they are able to speak, sign and/or write in the language as well as perceive and understand speech, sign or text in it. </dd>
+ <dt>Speech</dt> 
+ <dd>Refers to linguistic activity, i.e. the production of language (spoken, written or signed). </dd>
+ <dt>Synthetic text</dt> 
+ <dd>Refers to text produced by an algorithm rather than a person. </dd>
+ <dt>Text</dt> 
+ <dd>Refers to a sequence of language data. </dd>
+</dl>
+</details>
 
 ## Schema
 
