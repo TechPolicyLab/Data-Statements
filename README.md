@@ -146,24 +146,29 @@ This guide for writing data statements provides the rationale, definitions, and 
 ### 3 Curation Rationale 
 
 <details>
-  <summary> Why </summary>  
+  <summary> Click here to see the Curation Rationale information </summary>  
+<!-- <br><details>
+  <summary> Why </summary>  -->
+ <h4>Why</h4>
   <ul>
     <li> For dataset creators, a curation rationale can help to promote intentionality in data selection and ensure representativeness. In addition, as difficult decisions arise, an explicit rationale can help to structure and resolve discussions about the data collection process and select pathways going forward. </li>
     <li> For data statement readers, an explicit statement of why and how the dataset was curated can help with inferences about the domain of generalizability of systems trained on the dataset. Knowing which texts were included, and what the goals were in selecting texts, can be especially important in datasets too large to thoroughly inspect by hand. </li>
   </ul>
-</details>
+<!-- </details>
 <details open>
-  <summary> What </summary>  
+  <summary> What </summary>  -->
+ <h4>What</h4>
   The curation rationale should answer questions including: Why was this dataset created? What is the task or research question the dataset is intended to address? Which texts were included and what were the goals in selecting texts, both in the original collection and in any further sub-selection? What is the internal organization of the dataset? What constitutes a data instance?
-</details>
+<!-- </details>
 <details>
-  <summary> Best Practices </summary>  
+  <summary> Best Practices </summary>  -->
+ <h4>Best Practices</h4>
   <ul>
     <li> If the dataset includes different categories of data (e.g., radio news and talk shows), include additional qualitative information describing the rationale for including different categories and their distribution within the larger dataset. Further data statement elements below should speak to each subcategory. </li>
     <li> If the dataset involves subselection from a larger collection, specify topics, keywords, or other filters used and the reasons for choosing each. Technical details can be provided in 9 Preprocessing and Data Formatting. </li>
     <li> We recommend writing the curation rationale after the other elements have been drafted. This will help to clarify what level of detail is appropriate for the curation rationale as well as which details are best included in other elements, thereby reducing repetition. </li>
   </ul>
-  </details>
+</details>
 
 ### 4 Documentation for Source Datasets
 
