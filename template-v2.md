@@ -1,9 +1,16 @@
 > # Data Statement - Version 2
 
-> **How to use this document:**
+> ## About data statements and this template
+
+> A data statement is a characterization of a dataset that provides context to allow developers and users to better understand how experimental results might generalize, how software might be appropriately deployed, and what biases might be reflected in systems built on the software. In developing and writing your data statement, keep in mind that someone new to your dataset might be reading your data statement 10 or 20 years from now. Alternatively, at some point in the future, you might find yourself looking back at your data and reading your data statement to recall key characteristics and decisions.
+
+>This template for the Data Statement Version 2 schema was prepared by Angelina McMillan-Major, Emily M. Bender, and Batya Friedman. Data statements are from the University of Washington. Contact: datastatements@uw.edu. This document template is licensed as CC0.
+
+> ## How to use this document
+
 > Fill in each section according to the instructions. The goal is to help people understand your data when they approach it. This could be someone looking at it in ten years, or it could be you yourself looking back at the data in two years.
 
-> For full details, see the How To Guide(LINK).
+> For full details, see A Guide for Writing Data Statements(LINK).
 
 > Instruction fields are given as blockquotes; delete the instructions when you're done, and provide the file with your data, for example as "DATASTATEMENT.md". The lists in some schema elements are designed to be filled in, but it's good to also provide a written description, as well as the list.
 
@@ -115,12 +122,10 @@
 
 > A list of terms and associated definitions that may be technical or unfamiliar to nonexperts should be provided.
 
-> ## About this document
+## About this document
 
-> This template for the Data Statements Version 2 schema was prepared by Angelina McMillan-Major, Emily M. Bender, and Batya Friedman. 
+> Include this information about the document verbatim at the end of your data statement. If you adapt the data statement template, include a note about your changes here.
 
-> A data statement is a characterization of a dataset that provides context to allow developers and users to better understand how experimental results might generalize, how software might be appropriately deployed, and what biases might be reflected in systems built on the software.
+A data statement is a characterization of a dataset that provides context to allow developers and users to better understand how experimental results might generalize, how software might be appropriately deployed, and what biases might be reflected in systems built on the software.
 
-> Data Statements are from the University of Washington. Contact: [datastatements@uw.edu](mailto:datastatements@uw.edu). This document template is licensed as [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
-
-> This version of the markdown Data Statement is from April 7th 2021. The original Data Statement template is based on worksheets distributed at the [2020 LREC workshop on Data Statements](https://sites.google.com/uw.edu/data-statements-for-nlp/), by Emily M. Bender, Batya Friedman, and Angelina McMillan-Major. Updated from the community [Version 1 Markdown template by Leon Dercyznski](https://gist.github.com/leondz/b3a53bb807a301424e3762787a04a5da).
+This data statement was written based on the template for the Data Statements Version 2 schema. The template was prepared by Angelina McMillan-Major, Emily M. Bender, and Batya Friedman and can be found at (LINK) and was updated from the community [Version 1 Markdown template by Leon Dercyznski](https://gist.github.com/leondz/b3a53bb807a301424e3762787a04a5da).
