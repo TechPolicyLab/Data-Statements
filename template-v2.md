@@ -18,7 +18,7 @@
  
 # Data Statement for [Dataset Name]
 
-## A. HEADER
+## 1 HEADER
 
 > The header should include the following: 
 
@@ -31,25 +31,25 @@
 * Data Statement Citation:
 * Links to versions of this data statement in other languages:
 
-## B. EXECUTIVE SUMMARY
+## 2 EXECUTIVE SUMMARY
 
 > The executive summary is a short (60–100 word) summary of the data statement that at a minimum should include: (1) a one-sentence description of the curation rationale, (2) the language(s), and (3) an overview of relevant quantitative information such as the dataset size. 
 
-## C. CURATION RATIONALE 
+## 3 CURATION RATIONALE 
 
 > The curation rationale should answer questions including: Why was this dataset created? What is the task or research question the dataset is intended to address? Which texts were included and what were the goals in selecting texts, both in the original collection and in any further sub-selection? What is the internal organization of the dataset? What constitutes a data instance?
 
-## D. DOCUMENTATION FOR SOURCE DATASETS
+## 4 DOCUMENTATION FOR SOURCE DATASETS
 
 > For datasets built out of pre-existing datasets, a link to a data statement for each source dataset should be included. If a data statement is not available, provide a link to a publication or other documentation. Provide links to licenses for source datasets, where applicable.
 
-## E. LANGUAGE VARIETIES
+## 5 LANGUAGE VARIETIES
 
-> All of the languages and language varieties represented in the dataset should be characterized with (1) a language tag from BCP-47 identifying the language variety (e.g., en-US or yue-Hant-HK), and (2) a prose description elucidating and elaborating on the BCP-47 tag (e.g., English as spoken in Palo Alto, California; Cantonese written with traditional characters by speakers in Hong Kong who are bilingual in Mandarin).
+> All of the languages and language varieties represented in the dataset should be characterized with (1) a language tag from [BCP-47](https://tools.ietf.org/rfc/bcp/bcp47.txt) identifying the language variety (e.g., en-US or yue-Hant-HK), and (2) a prose description elucidating and elaborating on the BCP-47 tag (e.g., English as spoken in Palo Alto, California; Cantonese written with traditional characters by speakers in Hong Kong who are bilingual in Mandarin).
 
-## F. SPEAKER DEMOGRAPHIC
+## 6 SPEAKER DEMOGRAPHIC
 
-> All of the speaker groups represented in the dataset should be characterized with a prose description. Demographic categories are culture-specific and locally appropriate categories and definitions should be used. Suggested specifications include: 
+> All of the speaker groups represented in the dataset should be characterized with a prose description. Demographic categories are context- and culture-specific; therefore, locally appropriate categories and definitions should be used. Suggested specifications include: 
 
 * Age
 * Gender
@@ -60,7 +60,7 @@
 * Number of different speakers represented
 * Presence of disordered speech
  
-## G. ANNOTATOR DEMOGRAPHIC
+## 7 ANNOTATOR DEMOGRAPHIC
 
 > All of the annotator groups represented in the dataset, including those who developed the guidelines, should be characterized with a prose description. Demographic categories are context- and culture-specific; therefore, locally appropriate categories and definitions should be used. Suggested specifications include:
 
@@ -73,7 +73,7 @@
 * Number of different annotators represented
 * Relevant training
 
-## H. SPEECH SITUATION AND TEXT CHARACTERISTICS
+## 8 SPEECH SITUATION AND TEXT CHARACTERISTICS
 
 > A description of the speech situation in which the linguistic production occurred and/or the relevant text characteristics should be provided. This schema element may also be used to describe the cultural context of the language practices collected. Specifications include:
 
@@ -88,19 +88,19 @@
 * Non-linguistic context `(e.g., photos speakers were all looking at; a game participants are playing)`
 * Additional details about the cultural context `(optional)`
 
-## I. PREPROCESSING AND DATA FORMATTING
+## 9 PREPROCESSING AND DATA FORMATTING
 
 > A description of all preprocessing and data formatting modifications made to the data (except for annotations) should be provided, including information about any anonymization procedures. The description should also specify which, if any, tools were used to make the modifications and whether the raw data is included in the dataset. 
 
-## J. CAPTURE QUALITY
+## 10 CAPTURE QUALITY
 
 > A description of quality issues in data capture should be provided. This includes all types of quality issues that arise across a broad range of collection methodologies for capturing an otherwise impermanent event.
 
-## K. LIMITATIONS
+## 11 LIMITATIONS
 
 > For any challenges that could not be fully addressed, a description of those challenges and characterization of the resulting limitations of the dataset should be provided.
 
-## L. METADATA
+## 12 METADATA
 
 > A collection of pointers to relevant metadata should be provided. Suggestions include:
 
@@ -110,15 +110,15 @@
 * Dataset quality: `Metrics for inter-annotator agreement and/or other numerical scores of dataset quality`
 * Errata: `Link to the list of known errors and how to report additional ones`
 
-## M. DISCLOSURES AND ETHICAL REVIEW
+## 13 DISCLOSURES AND ETHICAL REVIEW
 
-> For projects supported by funding, a description of the funding source for the dataset and relevant information (e.g., grant number) should be specified. For projects that went through an ethical approval process, a link to the institution (e.g., IRB) and a brief description of the consent process should be provided. Any potential conflicts of interest should also be disclosed. If speakers or annotators were compensated, describe how compensation rates were determined.
+> For projects supported by funding, a description of the funding source for the dataset and relevant information (e.g., grant number) should be specified. For projects that went through an ethical approval process, a link to the institution (e.g., IRB) should be provided. In addition, include: a brief description of any consent process used; if speakers or annotators were compensated, how compensation rates were determined; any access restrictions to the data; and any potential conflicts of interest.
 
-## N. OTHER
+## 14 OTHER
 
 > Any further considerations that are relevant for the dataset should be included here. 
 
-## O. GLOSSARY
+## 15 GLOSSARY
 
 > A list of terms and associated definitions that may be technical or unfamiliar to nonexperts should be provided.
 
