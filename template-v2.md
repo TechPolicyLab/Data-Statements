@@ -4,13 +4,13 @@
 
 > A data statement is a characterization of a dataset that provides context to allow developers and users to better understand how experimental results might generalize, how software might be appropriately deployed, and what biases might be reflected in systems built on the software. In developing and writing your data statement, keep in mind that someone new to your dataset might be reading your data statement 10 or 20 years from now. Alternatively, at some point in the future, you might find yourself looking back at your data and reading your data statement to recall key characteristics and decisions.
 
->This template for the Data Statement Version 2 schema was prepared by Angelina McMillan-Major, Emily M. Bender, and Batya Friedman. Data statements are from the University of Washington. Contact: datastatements@uw.edu. This document template is licensed as CC0.
+>This template for the Data Statement Version 2 schema was prepared by Angelina McMillan-Major, Emily M. Bender, and Batya Friedman. Data statements are from the University of Washington. Contact: datastatements@uw.edu. This document template is licensed as [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
 
 > ## How to use this document
 
 > Fill in each section according to the instructions. The goal is to help people understand your data when they approach it. This could be someone looking at it in ten years, or it could be you yourself looking back at the data in two years.
 
-> For full details, see A Guide for Writing Data Statements(LINK).
+> For full details, see [A Guide for Writing Data Statements](https://techpolicylab.uw.edu/data-statements/).
 
 > Instruction fields are given as blockquotes; delete the instructions when you're done, and provide the file with your data, for example as "DATASTATEMENT.md". The lists in some schema elements are designed to be filled in, but it's good to also provide a written description, as well as the list.
 
@@ -128,4 +128,4 @@
 
 A data statement is a characterization of a dataset that provides context to allow developers and users to better understand how experimental results might generalize, how software might be appropriately deployed, and what biases might be reflected in systems built on the software.
 
-This data statement was written based on the template for the Data Statements Version 2 schema. The template was prepared by Angelina McMillan-Major, Emily M. Bender, and Batya Friedman and can be found at (LINK) and was updated from the community [Version 1 Markdown template by Leon Dercyznski](https://gist.github.com/leondz/b3a53bb807a301424e3762787a04a5da).
+This data statement was written based on the template for the Data Statements Version 2 schema. The template was prepared by Angelina McMillan-Major, Emily M. Bender, and Batya Friedman and can be found at https://techpolicylab.uw.edu/data-statements/ and was updated from the community [Version 1 Markdown template by Leon Dercyznski](https://gist.github.com/leondz/b3a53bb807a301424e3762787a04a5da).
