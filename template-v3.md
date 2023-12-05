@@ -6,7 +6,7 @@
 >
 > We encourage dataset developers to use data statements to guide dataset development, as well as to create effective documentation. The schema elements are written so that they may be interpreted both as future-looking questions during dataset design and as questions about the current state of the dataset when users are accessing a completed dataset. For dataset developers who are engaged in community-driven dataset projects, consider using the C3DAR toolkit, available at https://digital.lib.washington.edu/researchworks/handle/1773/50585.
 >
-> This template for the Data Statement Version 2 schema was prepared by Angelina McMillan-Major and Emily M. Bender. Data statements are from the University of Washington. Contact: datastatements@uw.edu. This document template is licensed as [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
+> This template for the Data Statement Version 3 schema was prepared by Angelina McMillan-Major and Emily M. Bender. Data statements are from the University of Washington. Contact: datastatements@uw.edu. This document template is licensed as [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
 >
 > ## How to use this document
 >
