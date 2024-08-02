@@ -1,6 +1,6 @@
 # Data Statements for Natural Language Processing
 
-This repository holds the templates and guides for Version 2 and Version 3 of data statements for natural language processing. 
+This repository holds the templates and guides for Version 2 and Version 3 of data statements for natural language processing. The templates are provided as a starting point for creating new data statements. The guides provide specific background information and best practices in addition to the instructions given for each schema element, which are also provided in the templates.
 
 For more information, see the data statements [website](https://techpolicylab.uw.edu/data-statements/).
 
@@ -32,4 +32,4 @@ _Dataset documentation and creation with best practices for language community d
 
 Language Dataset Documentation Design: Learning from Deaf and Indigenous Communities ([McMillan-Major, 2023](https://digital.lib.washington.edu/researchworks/handle/1773/50854))
 
-A Guide for Creating and Documenting Language Datasets with Data Statements (McMillan-Major and Bender, 2024)
+A Guide for Creating and Documenting Language Datasets with Data Statements ([McMillan-Major and Bender, 2024](https://github.com/TechPolicyLab/Data-Statements/blob/main/V3-a-guide-for-creating-and-documenting-language-datasets-with-data-statements-schema-version-3))
