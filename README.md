@@ -1,5 +1,11 @@
 # Data Statements for Natural Language Processing
 
+This repository holds the templates and guides for Version 2 and Version 3 of data statements for natural language processing. 
+
+For more information, see the data statements [website](https://techpolicylab.uw.edu/data-statements/).
+
+## About Data Statements
+
 Data statements provide essential information about the characteristics of datasets, including but not limited to the curation rationale and data sources. Data statements are intended to help with (1) the conceptualization of and planning for datasets, in order to create datasets that reflect community needs, (2) the mitigation of the harms caused by bias in the dataset (such as a mismatch between training datasets and contexts where systems are deployed) and (3) the creation of a more inclusive data catalog, through identifying gaps. While first developed with language data types, data statements could be produced for a wide range of data types with adjustments to the schema to account for the unique characteristics of the specific data type.
 
 ## Research Context
