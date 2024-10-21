@@ -12,7 +12,7 @@
 >
 > Fill in each section according to the instructions. The goal is to help people understand your data when they approach it. This could be someone looking at it in ten years, or it could be you yourself looking back at the data in two years.
 >
-> For full details, see [Creating and Documenting Language Datasets with Data Statements](https://techpolicylab.uw.edu/data-statements/).
+> For full details, see [A Guide for Creating and Documenting Language Datasets with Data Statements](https://techpolicylab.uw.edu/data-statements/).
 >
 > Instruction fields are given as blockquotes; delete the instructions when you're done, and provide the file with your data, for example as "DATASTATEMENT.md". The lists in some schema elements are designed to be filled in, but it's good to also provide a written description, as well as the list.
 >
